@@ -1,5 +1,4 @@
 package Carwash.model;
-
 public class Layanan {
     private String id;
     private String nama;
@@ -11,11 +10,6 @@ public class Layanan {
         this.harga = harga;
     }
 
-    
-    
-    
-    
-    
     public String getId() { return id; }
     public String getNama() { return nama; }
     public double getHarga() { return harga; }

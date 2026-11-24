@@ -58,6 +58,7 @@ public class layanan extends javax.swing.JPanel {
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("Keluar");
+        jButton1.addActionListener(this::jButton1ActionPerformed);
 
         jLabel2.setText("Transaksi");
 
@@ -164,8 +165,8 @@ public class layanan extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 3, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnUbah)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnUbah, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(btnTambah))
                 .addGap(8, 8, 8)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -216,6 +217,12 @@ public class layanan extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(this, "Harga harus berupa angka lebih dari 0!");
         }
     }//GEN-LAST:event_btnUbahActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        java.awt.Window w = SwingUtilities.getWindowAncestor(this);
+        if (w != null) w.dispose();
+        new beranda().setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
     
     private void setupTable() {
         model = new DefaultTableModel(new Object[]{"NAMA PAKET", "HARGA"}, 0) {

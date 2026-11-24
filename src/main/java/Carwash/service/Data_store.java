@@ -8,7 +8,7 @@ public class Data_store {
 
     static {
         layanans.add(new Layanan("L001", "Cuci Biasa", 35000));
-        layanans.add(new Layanan("L002", "Cuci + Wak", 60000));
+        layanans.add(new Layanan("L002", "Cuci standar", 60000));
         layanans.add(new Layanan("L003", "Cuci Premium", 85000));
     }
 }

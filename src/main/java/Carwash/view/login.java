@@ -1,4 +1,3 @@
-
 package Carwash.view;
 
 import Carwash.model.Petugas;
@@ -16,6 +15,11 @@ public class login extends javax.swing.JFrame {
         getRootPane().setDefaultButton(btnMasuk);
 
         daftarPetugas.add(new Petugas("P001", "Andi", "petugas01", "12345"));
+        daftarPetugas.add(new Petugas("P002", "Andre", "petugas02", "12345"));
+        daftarPetugas.add(new Petugas("P003", "Nopal", "petugas03", "12345"));
+        daftarPetugas.add(new Petugas("P004", "Rizki", "petugas04", "12345"));
+        daftarPetugas.add(new Petugas("P005", "Putra", "petugas05", "12345"));
+        daftarPetugas.add(new Petugas("P006", "Farel", "petugas06", "12345"));
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -144,6 +148,8 @@ public class login extends javax.swing.JFrame {
             dispose();
             javax.swing.JOptionPane.showMessageDialog(null,
                     "Login berhasil. Selamat datang, " + petugasMasuk.getNama());
+            new beranda().setVisible(true);
+            this.dispose();
         } else {
             javax.swing.JOptionPane.showMessageDialog(this,
                     "Username atau password salah",
