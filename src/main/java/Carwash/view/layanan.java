@@ -227,6 +227,7 @@ public class layanan extends javax.swing.JPanel {
     private void setupTable() {
         model = new DefaultTableModel(new Object[]{"NAMA PAKET", "HARGA"}, 0) {
             @Override
+
             public boolean isCellEditable(int row, int col) { return false; }
         };
         tblLayanan.setModel(model);
