@@ -18,26 +18,26 @@ public class transaksi extends javax.swing.JPanel {
         jSeparator6 = new javax.swing.JSeparator();
         jSeparator7 = new javax.swing.JSeparator();
         jLabel12 = new javax.swing.JLabel();
-        jPanel1 = new javax.swing.JPanel();
+        panelSistemCarWash = new javax.swing.JPanel();
         labelSistemCarWash = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
-        javax.swing.JButton jButton1 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        javax.swing.JButton btnKeluar = new javax.swing.JButton();
+        labelTransaksi = new javax.swing.JLabel();
+        labelCustomer = new javax.swing.JLabel();
+        labelRiwayat = new javax.swing.JLabel();
+        labelLayanan = new javax.swing.JLabel();
         jSeparator3 = new javax.swing.JSeparator();
         jSeparator8 = new javax.swing.JSeparator();
-        cmbCustomer = new javax.swing.JLabel();
-        cmbPaket = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jTextField1 = new javax.swing.JTextField();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
+        lblCustomer = new javax.swing.JLabel();
+        lblPaketLayanan = new javax.swing.JLabel();
+        lblTanggal = new javax.swing.JLabel();
+        cmbCustomer = new javax.swing.JComboBox<>();
+        cmbPaketLayanan = new javax.swing.JComboBox<>();
+        txtTanggal = new javax.swing.JTextField();
+        panelJumlahCuci = new javax.swing.JPanel();
+        lblJumlahCuci = new javax.swing.JLabel();
+        lblNominalCuci = new javax.swing.JLabel();
+        lblProgesCuci = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jPanel8 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
@@ -45,29 +45,29 @@ public class transaksi extends javax.swing.JPanel {
         jPanel13 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jPanel3 = new javax.swing.JPanel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
+        lblInfoPromo = new javax.swing.JLabel();
+        lblTotalCuci = new javax.swing.JLabel();
+        panelRingkasan = new javax.swing.JPanel();
+        lblJudulRingkasan = new javax.swing.JLabel();
+        lblPaket = new javax.swing.JLabel();
+        lblHarga = new javax.swing.JLabel();
+        lblPromo = new javax.swing.JLabel();
+        lblNamaPaket = new javax.swing.JLabel();
+        lblNominalHarga = new javax.swing.JLabel();
+        lblStatusPromo = new javax.swing.JLabel();
         jSeparator9 = new javax.swing.JSeparator();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jPanel4 = new javax.swing.JPanel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
+        lblTotal = new javax.swing.JLabel();
+        lblNominalTotal = new javax.swing.JLabel();
+        btnSimpanTransaksi = new javax.swing.JButton();
+        btnBatal = new javax.swing.JButton();
+        panelAturanPromo = new javax.swing.JPanel();
+        lblAturanPromo = new javax.swing.JLabel();
+        lblKeteranganPromo = new javax.swing.JLabel();
+        lblPetugas = new javax.swing.JLabel();
 
         jLabel12.setText("Total");
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        panelSistemCarWash.setBackground(new java.awt.Color(255, 255, 255));
 
         labelSistemCarWash.setBackground(new java.awt.Color(0, 0, 0));
         labelSistemCarWash.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -76,54 +76,54 @@ public class transaksi extends javax.swing.JPanel {
         jSeparator1.setBackground(new java.awt.Color(204, 204, 204));
         jSeparator1.setForeground(new java.awt.Color(204, 204, 204));
 
-        jButton1.setText("Keluar");
+        btnKeluar.setText("Keluar");
 
-        jLabel2.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel2.setText("Transaksi ");
+        labelTransaksi.setBackground(new java.awt.Color(0, 0, 0));
+        labelTransaksi.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        labelTransaksi.setText("Transaksi ");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel3.setText("Customer");
+        labelCustomer.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        labelCustomer.setForeground(new java.awt.Color(153, 153, 153));
+        labelCustomer.setText("Customer");
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel4.setText("Riwayat");
+        labelRiwayat.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        labelRiwayat.setForeground(new java.awt.Color(153, 153, 153));
+        labelRiwayat.setText("Riwayat");
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel5.setText("Layanan");
+        labelLayanan.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        labelLayanan.setForeground(new java.awt.Color(153, 153, 153));
+        labelLayanan.setText("Layanan");
 
         jSeparator3.setForeground(new java.awt.Color(0, 0, 0));
 
         jSeparator8.setForeground(new java.awt.Color(204, 204, 204));
 
-        cmbCustomer.setForeground(new java.awt.Color(102, 102, 102));
-        cmbCustomer.setText("Customer");
+        lblCustomer.setForeground(new java.awt.Color(102, 102, 102));
+        lblCustomer.setText("Customer");
 
-        cmbPaket.setForeground(new java.awt.Color(102, 102, 102));
-        cmbPaket.setText("Paket Layanan");
+        lblPaketLayanan.setForeground(new java.awt.Color(102, 102, 102));
+        lblPaketLayanan.setText("Paket Layanan");
 
-        jLabel8.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel8.setText("Tanggal");
+        lblTanggal.setForeground(new java.awt.Color(102, 102, 102));
+        lblTanggal.setText("Tanggal");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cmbCustomer.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cmbPaketLayanan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jTextField1.setText("jTextField1");
+        txtTanggal.setText("jTextField1");
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        panelJumlahCuci.setBackground(new java.awt.Color(255, 255, 255));
+        panelJumlahCuci.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
-        jLabel9.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel9.setText("Jumlah Cuci");
+        lblJumlahCuci.setForeground(new java.awt.Color(102, 102, 102));
+        lblJumlahCuci.setText("Jumlah Cuci");
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel10.setText("Rp 0");
+        lblNominalCuci.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblNominalCuci.setText("Rp 0");
 
-        jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel11.setText("10 Dari 10");
+        lblProgesCuci.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblProgesCuci.setText("10 Dari 10");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -202,71 +202,71 @@ public class transaksi extends javax.swing.JPanel {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        jLabel13.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel13.setText("Promo: 10x cuci, 1x gratis");
+        lblInfoPromo.setForeground(new java.awt.Color(102, 102, 102));
+        lblInfoPromo.setText("Promo: 10x cuci, 1x gratis");
 
-        jLabel14.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel14.setText("Total");
+        lblTotalCuci.setForeground(new java.awt.Color(102, 102, 102));
+        lblTotalCuci.setText("Total");
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        javax.swing.GroupLayout panelJumlahCuciLayout = new javax.swing.GroupLayout(panelJumlahCuci);
+        panelJumlahCuci.setLayout(panelJumlahCuciLayout);
+        panelJumlahCuciLayout.setHorizontalGroup(
+            panelJumlahCuciLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelJumlahCuciLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(panelJumlahCuciLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelJumlahCuciLayout.createSequentialGroup()
                         .addGap(0, 59, Short.MAX_VALUE)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(panelJumlahCuciLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelJumlahCuciLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(panelJumlahCuciLayout.createSequentialGroup()
                                     .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                     .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelJumlahCuciLayout.createSequentialGroup()
                                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(108, 108, 108)))
                         .addGap(90, 90, 90)
                         .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel9)
+                    .addGroup(panelJumlahCuciLayout.createSequentialGroup()
+                        .addGroup(panelJumlahCuciLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(panelJumlahCuciLayout.createSequentialGroup()
+                                .addComponent(lblJumlahCuci)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel14))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel11)
+                                .addComponent(lblTotalCuci))
+                            .addGroup(panelJumlahCuciLayout.createSequentialGroup()
+                                .addComponent(lblProgesCuci)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel10)))
+                                .addComponent(lblNominalCuci)))
                         .addGap(16, 16, 16))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel13)
+                    .addGroup(panelJumlahCuciLayout.createSequentialGroup()
+                        .addComponent(lblInfoPromo)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        panelJumlahCuciLayout.setVerticalGroup(
+            panelJumlahCuciLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelJumlahCuciLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9)
-                    .addComponent(jLabel14))
+                .addGroup(panelJumlahCuciLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblJumlahCuci)
+                    .addComponent(lblTotalCuci))
                 .addGap(3, 3, 3)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel11)
-                    .addComponent(jLabel10))
+                .addGroup(panelJumlahCuciLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblProgesCuci)
+                    .addComponent(lblNominalCuci))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(panelJumlahCuciLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(39, 39, 39)
-                .addComponent(jLabel13)
+                .addComponent(lblInfoPromo)
                 .addGap(47, 47, 47)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                .addGroup(panelJumlahCuciLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -276,240 +276,240 @@ public class transaksi extends javax.swing.JPanel {
                 .addContainerGap())
         );
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        panelRingkasan.setBackground(new java.awt.Color(255, 255, 255));
+        panelRingkasan.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
-        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel15.setText("RINGKASAN");
+        lblJudulRingkasan.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
+        lblJudulRingkasan.setForeground(new java.awt.Color(153, 153, 153));
+        lblJudulRingkasan.setText("RINGKASAN");
 
-        jLabel16.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel16.setText("Paket");
+        lblPaket.setForeground(new java.awt.Color(102, 102, 102));
+        lblPaket.setText("Paket");
 
-        jLabel17.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel17.setText("Harga");
+        lblHarga.setForeground(new java.awt.Color(102, 102, 102));
+        lblHarga.setText("Harga");
 
-        jLabel18.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel18.setText("Promo");
+        lblPromo.setForeground(new java.awt.Color(102, 102, 102));
+        lblPromo.setText("Promo");
 
-        jLabel19.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel19.setText("Cuci biasa");
+        lblNamaPaket.setForeground(new java.awt.Color(102, 102, 102));
+        lblNamaPaket.setText("Cuci biasa");
 
-        jLabel20.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel20.setText("Rp 35.000");
+        lblNominalHarga.setForeground(new java.awt.Color(102, 102, 102));
+        lblNominalHarga.setText("Rp 35.000");
 
-        jLabel21.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel21.setText("Gratis");
+        lblStatusPromo.setForeground(new java.awt.Color(102, 102, 102));
+        lblStatusPromo.setText("Gratis");
 
         jSeparator9.setForeground(new java.awt.Color(204, 204, 204));
 
-        jLabel22.setText("Total");
+        lblTotal.setText("Total");
 
-        jLabel23.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel23.setText("Rp 0");
+        lblNominalTotal.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblNominalTotal.setText("Rp 0");
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
+        javax.swing.GroupLayout panelRingkasanLayout = new javax.swing.GroupLayout(panelRingkasan);
+        panelRingkasan.setLayout(panelRingkasanLayout);
+        panelRingkasanLayout.setHorizontalGroup(
+            panelRingkasanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelRingkasanLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGroup(panelRingkasanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelRingkasanLayout.createSequentialGroup()
                         .addComponent(jSeparator9)
                         .addContainerGap())
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel16)
+                    .addGroup(panelRingkasanLayout.createSequentialGroup()
+                        .addGroup(panelRingkasanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(panelRingkasanLayout.createSequentialGroup()
+                                .addComponent(lblPaket)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel19))
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel17)
-                                    .addComponent(jLabel15)
-                                    .addComponent(jLabel18))
+                                .addComponent(lblNamaPaket))
+                            .addGroup(panelRingkasanLayout.createSequentialGroup()
+                                .addGroup(panelRingkasanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblHarga)
+                                    .addComponent(lblJudulRingkasan)
+                                    .addComponent(lblPromo))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel20, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel21, javax.swing.GroupLayout.Alignment.TRAILING))))
+                                .addGroup(panelRingkasanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblNominalHarga, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(lblStatusPromo, javax.swing.GroupLayout.Alignment.TRAILING))))
                         .addGap(23, 23, 23))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel22)
-                            .addComponent(jLabel23))
+                    .addGroup(panelRingkasanLayout.createSequentialGroup()
+                        .addGroup(panelRingkasanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblTotal)
+                            .addComponent(lblNominalTotal))
                         .addGap(0, 0, Short.MAX_VALUE))))
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
+        panelRingkasanLayout.setVerticalGroup(
+            panelRingkasanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelRingkasanLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel15)
+                .addComponent(lblJudulRingkasan)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel16)
-                    .addComponent(jLabel19))
+                .addGroup(panelRingkasanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblPaket)
+                    .addComponent(lblNamaPaket))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel17)
-                    .addComponent(jLabel20))
+                .addGroup(panelRingkasanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblHarga)
+                    .addComponent(lblNominalHarga))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel18)
-                    .addComponent(jLabel21))
+                .addGroup(panelRingkasanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblPromo)
+                    .addComponent(lblStatusPromo))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel22)
+                .addComponent(lblTotal)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel23)
+                .addComponent(lblNominalTotal)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 0));
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Simpan Transaksi");
-        jButton2.addActionListener(this::jButton2ActionPerformed);
+        btnSimpanTransaksi.setBackground(new java.awt.Color(0, 0, 0));
+        btnSimpanTransaksi.setForeground(new java.awt.Color(255, 255, 255));
+        btnSimpanTransaksi.setText("Simpan Transaksi");
+        btnSimpanTransaksi.addActionListener(this::btnSimpanTransaksiActionPerformed);
 
-        jButton3.setForeground(new java.awt.Color(102, 102, 102));
-        jButton3.setText("Batal");
+        btnBatal.setForeground(new java.awt.Color(102, 102, 102));
+        btnBatal.setText("Batal");
 
-        jPanel4.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel4.setForeground(new java.awt.Color(102, 255, 255));
+        panelAturanPromo.setBackground(new java.awt.Color(102, 102, 102));
+        panelAturanPromo.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel24.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel24.setText("ATURAN PROMO");
+        lblAturanPromo.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
+        lblAturanPromo.setForeground(new java.awt.Color(204, 204, 204));
+        lblAturanPromo.setText("ATURAN PROMO");
 
-        jLabel25.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel25.setForeground(new java.awt.Color(51, 255, 255));
-        jLabel25.setText("10x cuci, 1x gratis, kecuali hari minggu dan tanggal merah");
+        lblKeteranganPromo.setBackground(new java.awt.Color(255, 255, 255));
+        lblKeteranganPromo.setForeground(new java.awt.Color(204, 204, 204));
+        lblKeteranganPromo.setText("10x cuci, 1x gratis, kecuali hari minggu dan tanggal merah");
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        javax.swing.GroupLayout panelAturanPromoLayout = new javax.swing.GroupLayout(panelAturanPromo);
+        panelAturanPromo.setLayout(panelAturanPromoLayout);
+        panelAturanPromoLayout.setHorizontalGroup(
+            panelAturanPromoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAturanPromoLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel24)
-                    .addComponent(jLabel25))
+                .addGroup(panelAturanPromoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblAturanPromo)
+                    .addComponent(lblKeteranganPromo))
                 .addContainerGap(58, Short.MAX_VALUE))
         );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        panelAturanPromoLayout.setVerticalGroup(
+            panelAturanPromoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAturanPromoLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel24)
+                .addComponent(lblAturanPromo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel25)
+                .addComponent(lblKeteranganPromo)
                 .addContainerGap(56, Short.MAX_VALUE))
         );
 
-        jLabel26.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel26.setText("Petugas: Petugas01");
+        lblPetugas.setForeground(new java.awt.Color(153, 153, 153));
+        lblPetugas.setText("Petugas: Petugas01");
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout panelSistemCarWashLayout = new javax.swing.GroupLayout(panelSistemCarWash);
+        panelSistemCarWash.setLayout(panelSistemCarWashLayout);
+        panelSistemCarWashLayout.setHorizontalGroup(
+            panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelSistemCarWashLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(labelSistemCarWash)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(btnKeluar)
                 .addGap(14, 14, 14))
             .addComponent(jSeparator1)
             .addComponent(jSeparator8, javax.swing.GroupLayout.Alignment.TRAILING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+            .addGroup(panelSistemCarWashLayout.createSequentialGroup()
+                .addGroup(panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelSistemCarWashLayout.createSequentialGroup()
                         .addGap(24, 24, 24)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jSeparator3)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(labelTransaksi, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(47, 47, 47)
-                        .addComponent(jLabel3)
+                        .addComponent(labelCustomer)
                         .addGap(49, 49, 49)
-                        .addComponent(jLabel4)
+                        .addComponent(labelRiwayat)
                         .addGap(59, 59, 59)
-                        .addComponent(jLabel5)
+                        .addComponent(labelLayanan)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGroup(panelSistemCarWashLayout.createSequentialGroup()
                         .addGap(14, 14, 14)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jButton2)
+                        .addGroup(panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelSistemCarWashLayout.createSequentialGroup()
+                                .addComponent(btnSimpanTransaksi)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton3)
+                                .addComponent(btnBatal)
                                 .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(cmbPaket)
-                                    .addComponent(jLabel8)
-                                    .addComponent(cmbCustomer)
-                                    .addComponent(jTextField1)
-                                    .addComponent(jComboBox2, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(panelSistemCarWashLayout.createSequentialGroup()
+                                .addGroup(panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(lblPaketLayanan)
+                                    .addComponent(lblTanggal)
+                                    .addComponent(lblCustomer)
+                                    .addComponent(txtTanggal)
+                                    .addComponent(cmbPaketLayanan, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(cmbCustomer, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(panelJumlahCuci, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(jLabel26)
+                                .addGroup(panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(panelRingkasan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(panelAturanPromo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(panelSistemCarWashLayout.createSequentialGroup()
+                                        .addComponent(lblPetugas)
                                         .addGap(0, 0, Short.MAX_VALUE)))))))
                 .addContainerGap())
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+        panelSistemCarWashLayout.setVerticalGroup(
+            panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelSistemCarWashLayout.createSequentialGroup()
+                .addGroup(panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelSistemCarWashLayout.createSequentialGroup()
                         .addGap(16, 16, 16)
-                        .addComponent(jButton1))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(btnKeluar))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelSistemCarWashLayout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(labelSistemCarWash)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel5))
+                .addGroup(panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(labelTransaksi)
+                    .addComponent(labelCustomer)
+                    .addComponent(labelRiwayat)
+                    .addComponent(labelLayanan))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(cmbCustomer)
+                .addGroup(panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(panelSistemCarWashLayout.createSequentialGroup()
+                        .addComponent(lblCustomer)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cmbCustomer, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(12, 12, 12)
-                        .addComponent(cmbPaket)
+                        .addComponent(lblPaketLayanan)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cmbPaketLayanan, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(12, 12, 12)
-                        .addComponent(jLabel8)
+                        .addComponent(lblTanggal)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txtTanggal, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(panelJumlahCuci, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton2)
-                            .addComponent(jButton3))
+                        .addGroup(panelSistemCarWashLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnSimpanTransaksi)
+                            .addComponent(btnBatal))
                         .addContainerGap(20, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(panelSistemCarWashLayout.createSequentialGroup()
+                        .addComponent(panelRingkasan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(panelAturanPromo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel26)
+                        .addComponent(lblPetugas)
                         .addGap(76, 76, 76))))
         );
 
@@ -517,56 +517,28 @@ public class transaksi extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(panelSistemCarWash, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(panelSistemCarWash, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btnSimpanTransaksiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSimpanTransaksiActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btnSimpanTransaksiActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel cmbCustomer;
-    private javax.swing.JLabel cmbPaket;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
+    private javax.swing.JButton btnBatal;
+    private javax.swing.JButton btnSimpanTransaksi;
+    private javax.swing.JComboBox<String> cmbCustomer;
+    private javax.swing.JComboBox<String> cmbPaketLayanan;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
@@ -580,7 +552,35 @@ public class transaksi extends javax.swing.JPanel {
     private javax.swing.JSeparator jSeparator7;
     private javax.swing.JSeparator jSeparator8;
     private javax.swing.JSeparator jSeparator9;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JLabel labelCustomer;
+    private javax.swing.JLabel labelLayanan;
+    private javax.swing.JLabel labelRiwayat;
     private javax.swing.JLabel labelSistemCarWash;
+    private javax.swing.JLabel labelTransaksi;
+    private javax.swing.JLabel lblAturanPromo;
+    private javax.swing.JLabel lblCustomer;
+    private javax.swing.JLabel lblHarga;
+    private javax.swing.JLabel lblInfoPromo;
+    private javax.swing.JLabel lblJudulRingkasan;
+    private javax.swing.JLabel lblJumlahCuci;
+    private javax.swing.JLabel lblKeteranganPromo;
+    private javax.swing.JLabel lblNamaPaket;
+    private javax.swing.JLabel lblNominalCuci;
+    private javax.swing.JLabel lblNominalHarga;
+    private javax.swing.JLabel lblNominalTotal;
+    private javax.swing.JLabel lblPaket;
+    private javax.swing.JLabel lblPaketLayanan;
+    private javax.swing.JLabel lblPetugas;
+    private javax.swing.JLabel lblProgesCuci;
+    private javax.swing.JLabel lblPromo;
+    private javax.swing.JLabel lblStatusPromo;
+    private javax.swing.JLabel lblTanggal;
+    private javax.swing.JLabel lblTotal;
+    private javax.swing.JLabel lblTotalCuci;
+    private javax.swing.JPanel panelAturanPromo;
+    private javax.swing.JPanel panelJumlahCuci;
+    private javax.swing.JPanel panelRingkasan;
+    private javax.swing.JPanel panelSistemCarWash;
+    private javax.swing.JTextField txtTanggal;
     // End of variables declaration//GEN-END:variables
 }
